@@ -1,4 +1,4 @@
-# Movie-Recommendation-System-Using-MovieLens
+# Comparative-Analysis-of-Collaborative-Filtering-Algorithms-for-Recommendation-Systems
 
 ## Get Started
 This project leverages 100,836 ratings from 610 users across 9,742 movies to recommend films using five algorithms: 
