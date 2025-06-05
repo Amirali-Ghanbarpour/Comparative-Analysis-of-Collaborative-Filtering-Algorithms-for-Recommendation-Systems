@@ -1,17 +1,12 @@
-Here’s your GitHub README file following your requested format:
-
-```markdown
 # Movie-Recommendation-System-Using-MovieLens
 
 ## Get Started
-Jump into building a movie recommendation system with the MovieLens dataset! This project leverages 100,836 ratings from 610 users across 9,742 movies to recommend films using five algorithms: 
+This project leverages 100,836 ratings from 610 users across 9,742 movies to recommend films using five algorithms: 
 - Matrix Factorization (MF)
 - Tuned Matrix Factorization
 - Funk SVD with RPCA
 - Neural Collaborative Filtering (NCF)
 - NCF with Contrastive Learning
-
-Optimized for sparse data, NCF with Contrastive Learning achieves top performance with **Recall@20 of 0.3947** and **NDCG@20 of 0.2478**, ideal for high-quality recommendations.
 
 ## What You'll Achieve
 - **Clean Data**: Filter sparse ratings and split data per user (**70% train, 15% CV, 15% test**).
@@ -19,23 +14,7 @@ Optimized for sparse data, NCF with Contrastive Learning achieves top performanc
 - **Interpret Results**: Evaluate model performance with ranking metrics like **Recall@20 and NDCG@20**.
 - **Compare Performance**: Analyze accuracy, precision@20, recall@20, F1-score@20, and NDCG@20.
 
-## Set Up Your Environment
-Get the project running in minutes:
-
-### 1. Clone the Repo
-```bash
-git clone https://github.com/[your-username]/movie-recommendation-system.git
-cd movie-recommendation-system
-```
-
-### 2. Install Dependencies
-Ensure Python 3.8+ is installed. Install required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Download the Dataset
+### 2. Download the Dataset
 The notebook automatically downloads the **MovieLens ml-latest-small** dataset from GroupLens during execution. Alternatively, manually download it from [GroupLens](https://grouplens.org/datasets/movielens/) and extract it to `data/ml-latest-small/`.
 
 ## Understand the Results
@@ -74,17 +53,24 @@ Improve the system with these next steps:
 ## License
 Licensed under the **MIT License**. See `LICENSE` for details.
 
-## References
-- **Dataset**: Harper, F.M., & Konstan, J.A. (2015). *"The MovieLens Datasets: History and Context."* ACM Transactions on Interactive Intelligent Systems.
-- **Libraries**: McKinney, W. (2010). *"Data Structures for Statistical Computing in Python."* PySci Conference.
-- Pedregosa, F., et al. (2011). *"Scikit-learn: Machine Learning in Python."* JMLR.
-- Paszke, A., et al. (2019). *"PyTorch: An Imperative Style, High-Performance Deep Learning Library."* NeurIPS.
-- Abadi, M., et al. (2016). *"TensorFlow: A System for Large-Scale Machine Learning."* USENIX Symposium.
+## 📚 References & Resources
+- **Dataset**: Harper, F.M., & Konstan, J.A. (2015). *"The MovieLens Datasets: History and Context."* ACM Transactions on Interactive Intelligent Systems. DOI: [10.1145/2827872](https://doi.org/10.1145/2827872)
+- **Xiangnan et al. (2017)** *"Neural Collaborative Filtering."* DOI: [10.48550/arXiv.1708.05031](https://arxiv.org/abs/1708.05031)
+- **Koren et al. (2009)** *"Matrix Factorization Techniques for Recommender Systems."* IEEE Computer. DOI: [10.1109/MC.2009.263](https://doi.org/10.1109/MC.2009.263)
+- **Libraries**:
+  - McKinney, W. (2010). *"Data Structures for Statistical Computing in Python."* Proceedings of the 9th Python in Science Conference.
+  - Harris, C.R., et al. (2020). *"Array Programming with NumPy."* Nature, 585, 357–362.
+  - Pedregosa, F., et al. (2011). *"Scikit-learn: Machine Learning in Python."* Journal of Machine Learning Research, 12, 2825-2830.
+  - Paszke, A., et al. (2019). *"PyTorch: An Imperative Style, High-Performance Deep Learning Library."* Advances in Neural Information Processing Systems, 32.
+  - Abadi, M., et al. (2016). *"TensorFlow: A System for Large-Scale Machine Learning."* 12th USENIX Symposium on Operating Systems Design and Implementation, 265-283.
+  - Hunter, J.D. (2007). *"Matplotlib: A 2D Graphics Environment."* Computing in Science & Engineering, 9(3), 90-95.
+  - Waskom, M. (2021). *"Seaborn: Statistical Data Visualization."* Journal of Open Source Software, 6(60), 3021.
+
 
 ## Need Help?
 Reach out:
 
-📧 Email: **[your-email@example.com]**
+📧 Email: **[ghanbarpourshiadeh.amirali@gmail.com]**
 ```
 
 This README file follows your exact format while ensuring clarity, completeness, and a professional touch. Let me know if you’d like any modifications! 🚀
