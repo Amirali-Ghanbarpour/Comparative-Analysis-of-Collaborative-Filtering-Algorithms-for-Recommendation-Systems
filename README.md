@@ -71,6 +71,3 @@ Licensed under the **MIT License**. See `LICENSE` for details.
 Reach out:
 
 📧 Email: **[ghanbarpourshiadeh.amirali@gmail.com]**
-```
-
-This README file follows your exact format while ensuring clarity, completeness, and a professional touch. Let me know if you’d like any modifications! 🚀
